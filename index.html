@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Covid-19 Patient</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preload" href="./fonts/BISansNEXT-Bold.otf" as="font" crossorigin="anonymous" />
+	<link rel="preload" href="./fonts/BISansNEXT-Regular.otf" as="font" crossorigin="anonymous" />
+	
+	<!-- Style CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/owl.theme.default.min.css">
+	
+	<!-- Jquery -->
+	<script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-3.5.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+	</head>
+
+<body class="">
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- SLIDER CODE BEGIN-->
+	<div class="slideshow-container">
+		<div class="mySlides fade">
+			<div class="home-banner">
+				<picture>
+					<source media="(max-width: 559px)" type="image/webp" data-srcset="./images/mobile-banner.webp" srcset="./images/mobile-banner.webp">
+					<source media="(max-width: 559px)" type="image/png" data-srcset="./images/mobile-banner.png" srcset="./images/mobile-banner.png"> 
+					<source media="(max-width: 1024px)" type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source media="(max-width: 1024px)" type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png"> 
+					<source type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png"> 
+					<img data-src="images/slider.png" data-srcset="/images/slider.png" loading="lazy" class="lazyloaded" width="100%" alt="banner slider1" title="banner slider1" src="images/slider.png"> 
+				</picture>
+			</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="home-banner">
+				<picture>
+				    <source media="(max-width: 559px)" type="image/webp" data-srcset="./images/mobile-banner.webp" srcset="./images/mobile-banner.webp">
+					<source media="(max-width: 559px)" type="image/png" data-srcset="./images/mobile-banner.png" srcset="./images/mobile-banner.png"> 
+					<source media="(max-width: 1024px)" type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source media="(max-width: 1024px)" type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png"> 
+					<source type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png"> 
+					<img data-src="images/slider.png" data-srcset="/images/slider.png" loading="lazy" class="lazyloaded" width="100%" alt="banner slider1" title="banner slider1" src="images/slider.png"> 
+				</picture>
+			</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="home-banner">
+				<picture>
+				    <source media="(max-width: 559px)" type="image/webp" data-srcset="./images/mobile-banner.webp" srcset="./images/mobile-banner.webp">
+					<source media="(max-width: 559px)" type="image/png" data-srcset="./images/mobile-banner.png" srcset="./images/mobile-banner.png"> 
+					<source media="(max-width: 1024px)" type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source media="(max-width: 1024px)" type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png"> 
+					<source type="image/webp" data-srcset="./images/slider.webp" srcset="./images/slider.webp">
+					<source type="image/png" data-srcset="./images/slider.png" srcset="./images/slider.png">
+					<img data-src="images/slider.png" data-srcset="/images/slider.png" loading="lazy" class="lazyloaded" width="100%" alt="banner slider1" title="banner slider1" src="images/slider.png">
+				</picture>
+			</div>
+		</div>
+		<div class="nov-dots"> <span class="dot" onclick="currentSlide(1)"></span> <span class="dot" onclick="currentSlide(2)"></span> <span class="dot" onclick="currentSlide(3)"></span> </div>
+		<a class="prev" onclick="plusSlides(-1)">
+			<picture>
+				<source type="image/webp" data-srcset="./images/left-arrow.webp" srcset="./images/left-arrow.webp">
+				<source type="image/png" data-srcset="./images/left-arrow.png" srcset="./images/left-arrow.png"> 
+				<img data-src="images/left-arrow.png" data-srcset="/images/left-arrow.png" loading="lazy" class="lazyloaded" width="50" height="100" alt="left-arrow" title="left-arrow" src="images/left-arrow.png">
+			</picture>
+		</a>
+		<a class="next" onclick="plusSlides(1)">
+			<picture>
+				<source type="image/webp" data-srcset="./images/right-arrow.webp" srcset="./images/right-arrow.webp">
+				<source type="image/png" data-srcset="./images/right-arrow.png" srcset="./images/right-arrow.png"> 
+				<img data-src="images/right-arrow.png" data-srcset="/images/right-arrow.png" loading="lazy" class="lazyloaded" width="50" height="100" alt="right-arrow" title="right-arrow" src="images/right-arrow.png"> 
+			</picture>
+		</a>
+	</div>
+	<!--SLIDER CODE ENDS HERE-->
+	<!--PARAGRAPH CODE BEGINS HERE-->
+	<div class="container">
+		<div class="main-title">
+			<p>Staying in control of our lives can be a daily struggle—especially this year, and especially for the half of us who live with a chronic condition.* It’s time for a change. It’s time to work together to take back control. It’s time to focus on our health again. And it’s time for us to get back to living. </p>
+		</div>
+	</div>
+	<!-- ACORDIAN CODE BEGINS HERE-->
+	<div class="container">
+		<div class="accordions">
+			<div class="accordion-item">
+				<div class="accordion-head">
+					<picture>
+						<source type="image/webp" data-srcset="./images/home.webp" srcset="./images/home.webp">
+						<source type="image/png" data-srcset="./images/home.png" srcset="./images/home.png">
+						<img data-src="images/home.png" data-srcset="/images/home.png" loading="lazy" class="lazyloaded" width="369" height="88" alt="home" title="home" src="images/home.png"> 
+					</picture>
+					<div class="accordion-title">
+						<p>Many people struggle with motivation for self-care. That’s normal, so if everything hasn’t been going perfectly, don’t be hard on yourself. With a few small tweaks, you can take real steps towards better self-care without even leaving the house..</p>
+					</div>
+					<div class="arrow add"></div>
+				</div>
+				<!-- ACCORDION BODY-SECTION ONE-->
+				<div class="accordion-body">
+					<div class="slider owl-carousel owl-theme">
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/breath.webp" srcset="./images/breath.webp">
+									<source type="image/png" data-srcset="./images/breath.png" srcset="./images/breath.png"> 
+									<img data-src="images/breath.png" data-srcset="/images/breath.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="breath" title="breath" src="images/breath.png">
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Breathe. Just breathe.</div>
+								<p>Living with a chronic condition isn’t easy, so have mercy on yourself. Instead of comparing yourself to others, try comparing yourself to who you were yesterday, and who you’d like to be tomorrow</p>
+								<div class="btn btn1"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/friend.webp" srcset="./images/friend.webp">
+									<source type="image/png" data-srcset="./images/friend.png" srcset="./images/friend.png"> 
+									<img data-src="images/friend.png" data-srcset="/images/friend.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="friend" title="friend" src="images/friend.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Make friends with technology.</div>
+								<p>If you’ve never used technology to improve your health, now’s a great time to try. You can use telemedicine for a remote doctor’s appointment, find helpful online resources, or use mobile health apps for your specific condition. Technology can be a wonderful addition to your health routine.</p>
+								<div class="btn btn0"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/remember.webp" srcset="./images/remember.webp">
+									<source type="image/png" data-srcset="./images/remember.png" srcset="./images/remember.png">
+									<img data-src="images/remember.png" data-srcset="/images/remember.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="remember" title="remember" src="images/remember.png">
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title"> Remember you are not alone.</div>
+								<p>We are social beings. Check in with friends, have a virtual appointment, or take a walk around the block—the more social interaction, the better.</p>
+								<div class="btn btn2"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/baby.webp" srcset="./images/baby.webp">
+									<source type="image/png" data-srcset="./images/baby.png" srcset="./images/baby.png"> <img data-src="images/baby.png" data-srcset="/images/baby.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="baby" title="baby" src="images/baby.png">
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Take baby steps.</div>
+								<p>What’s your healthy choice for today? A healthy recipe? A dance session in the kitchen? An afternoon in the garden? Set wellness goals that you can achieve, no matter how small.</p>
+								<div class="btn btn3"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/treat.webp" srcset="./images/treat.webp">
+									<source type="image/png" data-srcset="./images/treat.png" srcset="./images/treat.png"> 
+									<img data-src="images/treat.png" data-srcset="/images/treat.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="treat" title="treat" src="images/treat.png">
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Treat yourself.</div>
+								<p>We are social beings. Check in with friends, have a virtual appointment, or take a walk around the block—the more social interaction, the better.</p>
+								<div class="btn btn4"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-head">
+					<picture>
+						<source type="image/webp" data-srcset="./images/community.webp" srcset="./images/community.webp">
+						<source type="image/png" data-srcset="./images/community.png" srcset="./images/community.png"> 
+						<img data-src="images/community.png" data-srcset="/images/community.png" loading="lazy" class="lazyloaded" width="369" height="88" alt="community" title="community" src="images/community.png"> 
+					</picture>
+					<div class="accordion-title">
+						<p>Staying connected to each other is essential. It’s true with our personal lives, our professional lives, and certainly with our health. Your friends and neighbors can help you stay on track—and in turn, you can inspire them through your healthy actions.</p>
+					</div>
+					<div class="arrow"></div>
+				</div>
+				<!-- ACCORDION BODY-SECTION TWO-->
+				<div class="accordion-body">
+					<div class="slider owl-carousel owl-theme">
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/story.webp" srcset="./images/story.webp">
+									<source type="image/png" data-srcset="./images/story.png" srcset="./images/story.png"> 
+									<img data-src="images/story.png" data-srcset="/images/story.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="story" title="story" src="images/story.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title"> Tell your story</div>
+								<p>If you have a success story to share for others with your condition, even if it’s small, share it. Did you manage 10,000 steps today? Did you drink all the water you wanted to? You never know who may need to hear about it. And remember, when you’re struggling, try not to compare yourself to others. You can always ask for help—from a friend, doctor, patient organization, or whoever makes you comfortable.</p>
+								<div class="btn"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/heart.webp" srcset="./images/heart.webp">
+									<source type="image/png" data-srcset="./images/heart.png" srcset="./images/heart.png"> 
+									<img data-src="images/heart.png" data-srcset="/images/heart.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="heart" title="heart" src="images/heart.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title"> Remember how much you have to give</div>
+								<p>You are far more than your chronic condition. In fact, your experiences could be invaluable to those facing similar health challenges. However you can help, you might be surprised by how good it feels to give back.</p>
+								<div class="btn btn5"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/pace.webp" srcset="./images/pace.webp">
+									<source type="image/png" data-srcset="./images/pace.png" srcset="./images/pace.png"> 
+									<img data-src="images/pace.png" data-srcset="/images/pace.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="pace" title="pace" src="images/pace.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Re-engage at your own pace.</div>
+								<p>With communities gradually reopening, your neighborhood may look quite different than it did even a month ago. Look at this as an opportunity to define your new reality. Explore what’s new in your local community center, your favorite pharmacy, or your place of worship—whatever makes you comfortable, find a community mainstay where you know you’ll see a friendly face.</p>
+								<div class="btn btn6"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/most.webp" srcset="./images/most.webp">
+									<source type="image/png" data-srcset="./images/most.png" srcset="./images/most.png"> <img data-src="images/most.png" data-srcset="/images/most.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="most" title="most" src="images/most.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Make the most of opportunities.</div>
+								<p>Flexible working is fast becoming the norm in many industries. Online learning is simpler and more accessible than ever. And networking has never been easier. If your chronic condition has held you back professionally, now’s a great time to move forward.</p>
+								<div class="btn btn7"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-head">
+					<picture>
+						<source type="image/webp" data-srcset="./images/health.webp" srcset="./images/health.webp">
+						<source type="image/png" data-srcset="./images/health.png" srcset="./images/health.png"> 
+						<img data-src="images/health.png" data-srcset="/images/health.png" loading="lazy" class="lazyloaded" width="369" height="88" alt="health" title="health" src="images/health.png"> 
+					</picture>
+					<div class="accordion-title">
+						<p>The medical community exists to help you and wants to see you, so keep up a steady dialogue with your healthcare team. You’ll optimize the care you receive, and your team will have a fuller understanding of your situation.</p>
+					</div>
+					<div class="arrow"></div>
+				</div>
+				<!-- ACCORDION BODY-SECTION THREE-->
+				<div class="accordion-body">
+					<div class="slider owl-carousel owl-theme">
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/open.webp" srcset="./images/open.webp">
+									<source type="image/png" data-srcset="./images/open.png" srcset="./images/open.png"> 
+									<img data-src="images/open.png" data-srcset="/images/open.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="open" title="open" src="images/open.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Open up. No one is judging you.</div>
+								<p>It’s important to feel at ease at your doctor’s appointment. Check to make sure you’re comfortable with the safety and sanitation measures your practice has taken. Many practices have posted their specific safety procedures online to reassure their patients.</p>
+								<div class="btn btn8"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/peace.webp" srcset="./images/peace.webp">
+									<source type="image/png" data-srcset="./images/peace.png" srcset="./images/peace.png"> 
+									<img data-src="images/peace.png" data-srcset="/images/peace.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="peace" title="peace" src="images/peace.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Give yourself peace of mind.</div>
+								<p>If you’ve never used technology to improve your health, now’s a great time to try. You can use telemedicine for a remote doctor’s appointment, find helpful online resources, or use mobile health apps for your specific condition. Technology can be a wonderful addition to your health routine.</p>
+								<div class="btn btn11"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/schedule.webp" srcset="./images/schedule.webp">
+									<source type="image/png" data-srcset="./images/schedule.png" srcset="./images/schedule.png"> 
+									<img data-src="images/schedule.png" data-srcset="/images/schedule.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="schedule" title="schedule" src="images/schedule.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Schedule other appointment.</div>
+								<p>Many people may have put off appointments this past year, both related and unrelated to their chronic condition. It’s understandable, but it’s time to start looking forward again. Try to plan ahead by booking flu shots and check-ups for yourself and your family.</p>
+								<div class="btn btn9"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/visit.webp" srcset="./images/visit.webp">
+									<source type="image/png" data-srcset="./images/visit.png" srcset="./images/visit.png"> 
+									<img data-src="images/visit.png" data-srcset="/images/visit.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="visit" title="visit" src="images/visit.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">Visit your pharmacy.</div>
+								<p>No one is more deserving of care than you. Catch up on prescription refills, check for prescriptions that may be expiring, and ask your pharmacist or doctor about any coupons or financial support options that may be available.</p>
+								<div class="btn btn12"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="img">
+								<picture>
+									<source type="image/webp" data-srcset="./images/stay.webp" srcset="./images/stay.webp">
+									<source type="image/png" data-srcset="./images/stay.png" srcset="./images/stay.png"> 
+									<img data-src="images/stay.png" data-srcset="/images/stay.png" loading="lazy" class="lazyloaded" width="280" height="230" alt="stay" title="stay" src="images/stay.png"> 
+								</picture>
+							</div>
+							<div class="card-content">
+								<div class="sub-title">tay in the know.</div>
+								<p>Ask your doctor or patient organization about any new treatments that may be available or on the horizon. You might find a treatment that suits you—or, if you’d like to participate, clinical trials may be enrolling new patients.</p>
+								<div class="btn btn10"> <a href="#">VISIT THE SITE</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ACORDIAN CODE  ENDS HERE-->
+	<!--CONTAINER IMAGE CODE BEGINS HERE-->
+	<div class="container container1 ">
+		<div class="card-img">
+			<div class="column-img col-img1">
+				<picture>
+				    <source media="(max-width: 559px)" type="image/webp" data-srcset="./images/mobile-card1.webp" srcset="./images/mobile-card1.webp">
+					<source media="(max-width: 559px)" type="image/png" data-srcset="./images/mobile-card1.png" srcset="./images/mobile-card1.png"> 
+				    <source type="image/webp" data-srcset="./images/card1.webp" srcset="./images/card1.webp">
+					<source type="image/png" data-srcset="./images/card1.png" srcset="./images/card1.png"> 
+					<img data-src="images/card1.png" data-srcset="/images/card1.png" loading="lazy" class="lazyloaded" width="470" alt="card1" title="card1" src="images/card1.png">
+				</picture>
+			</div>
+			<div class="column-img col-img1">
+				<picture>
+				    <source media="(max-width: 559px)" type="image/webp" data-srcset="./images/mobile-card2.webp" srcset="./images/mobile-card2.webp">
+					<source media="(max-width: 559px)" type="image/png" data-srcset="./images/mobile-card2.png" srcset="./images/mobile-card2.png"> 
+					<source type="image/webp" data-srcset="./images/card2.webp" srcset="./images/card2.webp">
+					<source type="image/png" data-srcset="./images/card2.png" srcset="./images/card2.png">
+					<img data-src="images/card2.png" data-srcset="/images/card2.png" loading="lazy" class="lazyloaded" width="470"  alt="card2" title="card2" src="images/card2.png"> 
+				</picture>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="second-para">
+			<p><span>*"Chronic Conditions: Making the Case for Ongoing Care".</span> Robert Wood Johnson Foundation & Partnership for Solutions. Baltimore, MD: Johns Hopkins University. September 2004. Archived from <span>the original</span> on 2012-04-23. Retrieved 2009-12-07</p>
+		</div>
+	</div>
+	<!--CONTAINER IMAGE CODE ENDS HERE-->
+	<!--FOOTER CODE BEGINS HERE-->
+	<footer class="content">
+		<div class="logo-img">
+			<picture>
+				<source type="image/webp" data-srcset="./images/footer-logo.webp" srcset="./images/footer-logo.webp">
+				<source type="image/png" data-srcset="./images/footer-logo.png" srcset="./images/footer-logo.png">
+				<img data-src="images/footer-logo.png" data-srcset="/images/footer-logo.png" loading="lazy" class="lazyloaded" width="70" height="70" alt="footer-logo" title="footer-logo" src="images/footer-logo.png"> </picture>
+		</div>
+		<div class="row footer-container">
+			<div class="main">
+				<div class="column"> <a href="#" title="Accessibility Statement">Accessibility Statement</a> </div>
+				<div class="column"> <a href="#" title="Terms of Use">Terms of Use</a> </div>
+				<div class="column"> <a href="#" title="Data Privacy">Data Privacy</a> </div>
+				<div class="column"> <a href="#" title="Imprint">Imprint</a> </div>
+			</div>
+		</div>
+		<p> <span>© 2010-2021 Boehringer Ingelheim International GmbH. All rights reserved.</span> </p>
+	</footer>
+	
+	<!--FOOTER CODE ENDS HERE-->
+	
+	<script type="text/javascript" src="./js/custom.js"></script>
+	<script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+	
+	<script>
+	$(".owl-carousel").owlCarousel({
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 2000, //2000ms = 2s;
+		autoplayHoverPause: false,
+		dots: true,
+		responsive: {
+			0: { 
+			    dotsEach: 3,
+				items: 1
+			},
+			600: {
+			    dotsEach: 3,
+				items: 3
+			},
+			1200: {
+			    dotsEach: 2,
+				items: 3
+				
+			}
+		}
+	});
+	</script>
+	
+</body>
+
+</html>
